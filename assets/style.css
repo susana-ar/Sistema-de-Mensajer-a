@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 25%;
+}
+
+.contenedorperfil {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid rgb(182, 181, 181) 1px;
+  background-color: rgba(231, 226, 226, 0.751);
+  width: 100%;
+  row-gap: 30px;
+}
+
+.logo {
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.textologo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+li {
+  display: flex;
+  border: solid rgb(182, 181, 181) 1px;
+  justify-content: center;
+}
+
+.textocontacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  gap: 3px;
+  height: 45px;
+}
+
+.texto-listado {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 200px;
+  gap: 3px;
+  height: 80px;
+}
+
+img {
+  border-radius: 200px;
+  width: 35px;
+}
+
+.img-list {
+  border-radius: 200px;
+  width: 57px;
+}
+
+.perfil {
+  display: flex;
+  gap: 10px;
+  width: 60%;
+  margin: 10px;
+}
+
+button {
+  justify-content: center;
+  background-color: rgb(165, 142, 198);
+  color: white;
+  width: 220px;
+  height: 55px;
+  font-size: large;
+  border: none;
+}
+
+.buttoncontainer {
+  height: 140px;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  height: 80px;
+}
+
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+}
+h2 {
+  font-size: large;
+}
+
+p {
+  font-size: large;
+  width: 50%;
+  text-align: center;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: x-small;
+  color: gray;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: medium;
+  font-weight: normal;
+}
+
+.icons {
+  display: flex;
+  margin: auto;
+  gap: 10px;
+  color: rgb(182, 181, 181);
+}
